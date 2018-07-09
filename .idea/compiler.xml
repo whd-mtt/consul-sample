@@ -7,11 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consul-service1" />
+        <module name="consul-service1 (1)" />
+        <module name="consul-service2" />
+        <module name="consul-service3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consul-sample" target="1.8" />
       <module name="consul-service1" target="1.8" />
+      <module name="consul-service1 (1)" target="1.8" />
+      <module name="consul-service2" target="1.8" />
+      <module name="consul-service3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,4 +5,5 @@ spring:
       host: 127.0.0.1
       port: 8500
       discovery:
-        register-health-check: false
+        register-health-check: true
+        health-check-path: /actuator/health

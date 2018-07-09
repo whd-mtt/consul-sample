@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: consul-service3
+server:
+  port: 8082
