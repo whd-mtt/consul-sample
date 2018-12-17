@@ -1,6 +1,5 @@
 package com.whd.cloud.consulservice2.controller;
 
-import org.springframework.boot.actuate.endpoint.web.annotation.RestControllerEndpoint;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +12,6 @@ import org.springframework.web.client.RestTemplate;
  * @date 2018/7/9 11:43
  * @desc Describe the function of this class in one sentence
  */
-//@RestControllerEndpoint(id = "ds")
 @RestController
 public class IndexController {
 

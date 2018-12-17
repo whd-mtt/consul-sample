@@ -11,7 +11,6 @@ import org.springframework.web.client.RestTemplate;
  * @date 2018/7/9 11:43
  * @desc Describe the function of this class in one sentence
  */
-//@RestControllerEndpoint(id = "ds")
 @RestController
 public class IndexController {
 

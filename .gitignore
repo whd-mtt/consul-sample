@@ -1,0 +1,25 @@
+.*
+!.gitignore
+!.gitkeep
+!.babelrc
+!.eslint*
+!.istanbul.yml
+!.kettle
+
+# IntelliJ meta-file
+*.iml
+# the log dir in the each project
+log
+
+# config local to each node, can be updated from application.yml.dist in the same folder
+application.yml
+
+# maven's target dir
+target
+.idea
+
+# python cached code
+__pycache__
+
+# npm install dir
+node_modules

@@ -7,3 +7,7 @@ spring:
       discovery:
         register-health-check: true
         health-check-path: /actuator/health
+server:
+  port: 8882
+  servlet:
+    context-path: /service3
