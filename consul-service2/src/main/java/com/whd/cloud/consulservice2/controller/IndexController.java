@@ -23,6 +23,12 @@ public class IndexController {
 
     @RequestMapping("/")
     public String home() {
-        return this.restTemplate().getForObject("http://consul-service1/", String.class) + " FROM REMOTE";
+        return this.restTemplate().getForEntity("http://CONSUL-SERVICE1/service1/", String.class) + " FROM REMOTE";
+    }
+
+
+    @RequestMapping("/index")
+    public String index() {
+        return this.restTemplate().getForObject("http://CONSUL-SERVICE1/service1/index", String.class) + " FROM REMOTE";
     }
 }

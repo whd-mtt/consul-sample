@@ -5,8 +5,12 @@ spring:
       host: 127.0.0.1
       port: 8500
       discovery:
+        register: true
         register-health-check: true
         health-check-path: /actuator/health
+        health-check-interval: 15s
+        health-check-url: http://127.0.0.1:${server.port}${server.servlet.context-path}/actuator/health
+        prefer-ip-address: true
 server:
   port: 8881
   servlet:

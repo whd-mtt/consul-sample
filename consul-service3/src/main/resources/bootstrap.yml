@@ -10,7 +10,7 @@ spring:
         health-check-path: /actuator/health
         health-check-interval: 15s
         health-check-url: http://127.0.0.1:${server.port}${server.servlet.context-path}/actuator/health
-        service-name: whd-consul-service3
+        prefer-ip-address: true
 server:
   port: 8882
   servlet:
